@@ -1,5 +1,6 @@
 name: terraform-automation-action
-run-name: Xplod4432 is learning GitHub Actionson:
+run-name: Xplod4432 is learning GitHub Actions
+on:
   pull_request:
     # Sequence of patterns matched against refs/heads
     branches:    
