@@ -1,0 +1,7 @@
+name: terraform-automation-action
+run-name: ${{ github.actor }} is learning GitHub Actionson:
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:    
+      - main
+      - 'releases/**'
