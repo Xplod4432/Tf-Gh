@@ -1,6 +1,11 @@
 name: terraform-automation-action
 run-name: Xplod4432 is learning GitHub Actions
 on:
+  push:
+   branches:
+   - main
+   paths:
+   - terraform/**
   pull_request:
     # Sequence of patterns matched against refs/heads
     branches:    
