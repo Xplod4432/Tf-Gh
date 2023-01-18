@@ -13,7 +13,7 @@ Terraform init and validate is applied on each Pull Request. This helps automate
 ## Generate Access Token
 1. If you are using a root account it is recommended to **create an IAM user account** with the required permissions to create and edit resources.
 2. After signing in on the top right corner click on your account name and select **Security credentials**.
-<IMG1>
+![IMG1](https://github.com/Xplod4432/Tf-Gh/blob/main/readmeAssets/image2.png)
 3. Scroll down to Access keys and click on create access key.
 4. **Note**: The access key secret is only shown once so be sure to download it as a CSV and store it safely.
 5. **Activate** the Access key
@@ -23,7 +23,7 @@ Terraform init and validate is applied on each Pull Request. This helps automate
 2. Create a **new repository** (Visibility does not affect operations/workflow)
 3. Go to **Settings** of the repo.
 4. Select **Actions** under the **Secrets and variables** section
-<IMG2>
+![IMG2](https://github.com/Xplod4432/Tf-Gh/blob/main/readmeAssets/image1.png)
 5. Click on **New Repository secret**.
 6. Add two secrets namely **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KEY** with their respective values as obtained from the previous section.
 
